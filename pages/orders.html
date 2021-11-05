@@ -9,9 +9,24 @@
 </head>
 
 <body>
-    <ul>
+
+<div id="topnav" ></div>
+    <div class="topnav">
+        <a class="active" href="../index.html">Home</a>
+        <a href="/pages/products.html">Étlap</a>
+        <a href="/pages/akcioink.html">Akcióink</a>
+        <a href="/pages/about.html">About</a>        
+        <a href="#footer">Footer</a>
+    </div>
+
+
+
+
+
+
+    <!-- <ul>
         <li>
-            <a href="/pages/index.html">Home</a>
+            <a href="../index.html">Home</a>
         </li>
         <li>
             <a href="/pages/products.html">Étlap</a>
@@ -20,36 +35,218 @@
             <a href="orders.html">Rendelések</a>
         </li>
         <li>
-            <a href="about.html">About</a>
+            <a href="/pages/about.html">About</a>
+        </li>
+    </ul> -->
+
+
+    <h3>Megjelenítendő elemek</h3>
+    <ul>
+        <li>Név</li>
+        <li>E-mail</li>
+        <li>Szállítási cím</li>
+        <li>Megjegyzés</li>
+        <li>Feltétek-felsororlás</li>
+        <li>Szószok-legördülő</li>
+        <li>Db 1-10 ig választható</li>
+        <li>Vásárlás ősszege- fizetendő</li>
+        <li>Rendelés gomb</li>
         </li>
     </ul>
-    <h1>Rendelések</h1>
-<p>Név</p>
-<p>E-mail</p>
-<p>Szállítási cím</p>
-<p>Megjegyzés</p>
-<p>Feltétek-felsororlás</p>
-<p>Szószok-legördülő</p>
-<p>Db 1-10 ig választható</p>
-<p>Vásárlás ősszege- fizetendő</p>
-<p>Rendelés gomb</p>
+
+
+
+    <h4>
+        Megrendelő adatai
+    </h4>
+
+    <form>
+        <label for="nev">Vezetéknév
+        </label>
+        <input type="text" placeholder="vezetéknév">
+    </form>
+
+    <form>
+        <label for="nev">Keresztnév
+        </label>
+        <input type="text" placeholder="keresztnév">
+    </form>
+
+    <form>
+        <label for="irányítószám">Irányítószám:
+        </label>
+        <input type="text" placeholder="irányítószám">
+    </form>
+
+    <form>
+        <label for="közterület tipusa">Közterület tipusa
+        </label>
+        <input type="text" placeholder="pl. utca, tér">
+    </form>
+    <form>
+        <label for="közterület neve">Közterület neve
+        </label>
+        <input type="text" placeholder="közterület neve">
+    </form>
+
+    <form>
+        <label for="hazszam, emelet, ajto">Házszám, emelet, ajtó
+        </label>
+        <input type="text" placeholder="hazszam, emelet, ajto">
+    </form>
+
+    <form>
+        <label for="e-mail">E-mail cím
+        </label>
+        <input type="text" placeholder="valami@valami.xy">
+    </form>
+
+    <form>
+        <label for="telefon">Telefonszám
+        </label>
+        <input type="text" placeholder="pl. +36/70-456-0999">
+    </form>
+
+    <form>
+        <label for="nev">Megjegyzés
+        </label>
+        <input type="text" placeholder="plusz infó, kívánság">
+    </form>
+
+
+    <h4>
+        Feltétek
+    </h4>
+
+    <form>
+        <label for="nev">Marhaszegy
+        </label>
+        <input type="radio">
+    </form>
+    <form>
+        <label for="nev">Pulykamell
+        </label>
+        <input type="radio">
+    </form>
+    <form>
+        <label for="nev">Csirkemell
+        </label>
+        <input type="radio">
+    </form>
+    <form>
+        <label for="nev">Sonka szelet
+        </label>
+        <input type="radio">
+    </form>
+    <form>
+        <label for="nev">Extra sajt
+        </label>
+        <input type="radio">
+    </form>
+
+    <h4>
+        Köretek
+    </h4>
+
+    <form>
+        <label for="nev">Görög saláta
+        </label>
+        <input type="radio">
+    </form>
+    <form>
+        <label for="nev">Cézár saláta
+        </label>
+        <input type="radio">
+    </form>
+    <form>
+        <label for="nev">Fejes saláta
+        </label>
+        <input type="radio">
+    </form>
+    <form>
+        <label for="nev">Hasáb burgonya
+        </label>
+        <input type="radio">
+    </form>
+    <form>
+        <label for="nev">Uborka saláta
+        </label>
+        <input type="radio">
+    </form>
+
+    <h4>
+        Szószok
+    </h4>
+
+    <SELECT name=”szoszok 1” size=1>
+        <OPTION value=”# 1”> Fokhagymás
+        <OPTION value=”# 2”> Kapros
+        <OPTION value=”# 3”> Csípős
+        <OPTION value=”# 4”> Tartár
+    </SELECT>
+
+    <h4>
+        Választható italok
+    </h4>
+
+    <form>
+        <label for="nev">Jeges tea
+        </label>
+        <input type="radio">
+    </form>
+    <form>
+        <label for="nev">Pepsikola
+        </label>
+        <input type="radio">
+    </form>
+    <form>
+        <label for="nev">Szőkekóla
+        </label>
+        <input type="radio">
+    </form>
+    <form>
+        <label for="nev">Ásványvíz
+        </label>
+        <input type="radio">
+    </form>
+    <form>
+        <label for="nev">Eszpresszó
+        </label>
+        <input type="radio">
+    </form>
+
+
+
+    <h4>Szendvics mennyiség</h4>
 
 
 
 
+    <SELECT name=”mennyiseg 1” size=1>
+        <OPTION value=”# 1”> 1 db
+        <OPTION value=”# 2”> 2 db
+        <OPTION value=”# 3”> 3 db
+        <OPTION value=”# 4”> 4 db
+        <OPTION value=”# 5”> 5 db
+        <OPTION value=”# 6”> 6 db
+        <OPTION value=”# 7”> 7 db
+        <OPTION value=”# 8”> 8 db
+        <OPTION value=”# 9”> 9 db
+        <OPTION value=”# 10”> 10 db
+    </SELECT>
 
 
+    <h4>
+        Vásásrlás összege / fizetendő/
+    </h4>
 
+    <footer id="footer">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque quae accusamus autem deserunt sunt cupiditate
+        eaque, rem ea tempore assumenda vel praesentium. Expedita explicabo tenetur illo provident nisi vel vero.
 
+    </footer>
 
-
-
-
-
-
-
-
-
+    <a href="#topnav" class="btn btn-sm btn-outline-success light">A lap tetejére</a>
 
 
 

@@ -1,0 +1,115 @@
+/* @font-face {
+    font-family: "Roboto";
+    src: url("Fonts/Roboto/Roboto-Regular.ttf");
+    font-weight: 500;
+} */
+
+/* @font-face {
+    font-family: "Open_Sans";
+    rc: url("Fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf");
+    font-weight: 500;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/* .topnav {
+    background: red;
+    font-family: "Courgette";
+    font-size: 22px;
+    position:relative;
+    top: 20px;
+    left: 30%;
+    width: 20%;
+    height: 100%;
+    padding-left: 6%;
+} */
+
+@font-face {
+    font-family: "Courgette";
+    src: url("Fonts/Courgette/Courgette-Regular.ttf");
+    font-weight: 500;
+}
+body {
+    background: #FFD000;
+    }
+
+h1 {
+    color: red;
+}
+
+h2 {
+    font-family: "Open_Sans" sans-serif;
+    color: brown;
+}
+
+/* h2 {
+    color: #55371a;
+} */
+h3 {
+    color: #FFD000;
+}
+h4 {
+    color: #28A745;
+}
+p {
+    color: grey;
+    font-size: 24px;
+}
+
+.button {
+    background-color: red;
+    border: none;
+    color: #FFD000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Open_Sans', sans-serif";
+    font-style: normal;
+    font-size: 22px;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    width: 33%;
+    padding: 7px 0px;
+    /* position:relative;
+    left: 20%;
+     */
+    }
+
+.button:hover {
+    background-color: #FFD000; /* Green */
+    color: red;
+    font-style: italic;
+    }
+
+    #stage {
+    background-image: url('../img/bg-rgb_245-245-245.jpg');
+    background-repeat: repeat;
+    background-size: content;
+    width: 86%;
+    margin-left: 7%;
+    }
+
+    caption-products {
+        font-family: roboto;
+        font-size: 20px;
+        text-align: center;
+        text-transform:uppercase;
+        text-decoration-line:underline;
+    }
+
+    caption-kategoriak {
+        font-family: roboto;
+        font-size: 20px;
+        text-align: center;
+        
+    }
+
+    .tr-1, .tr-3, .tr-5, .tr-7, .tr-9  {
+        background-color: coral;
+    }
+
+    .tr-2, .tr-4, .tr-6, .tr-8  {
+        background-color: rgba(255, 127, 80, 0.747);
+    }

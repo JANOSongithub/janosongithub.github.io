@@ -1,0 +1,138 @@
+h1 {
+    color: red;
+}
+h2 {
+    color: brown;
+}
+h3 {
+    color: #FFD000;
+}
+h4 {
+    color: #28A745;
+}
+h5 {
+    color: #0000ff;
+}
+h6{
+    color:#1e90ff;
+}
+
+body{
+    background: #FFD000;
+}
+
+img {
+    width: 6%;
+}
+
+caption-megrendelesek {
+    font-family: roboto;
+    font-size: 20px;
+    text-align: center;
+    text-transform:uppercase;
+    text-decoration-line:underline;
+}
+
+    #stage {
+        background-image: url('../img/bg-rgb_245-245-245.jpg');
+        background-repeat: repeat;
+        background-size: content;
+        width: 86%;
+        margin-left: 7%;
+        }
+
+.button {
+    background-color: red;
+    border: none;
+    color: #FFD000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: "Open_Sans', sans-serif";
+    font-style: normal;
+    font-size: 22px;
+    transition-duration: 0.4s;
+    border-radius: 12px;
+    width: 33%;
+    padding: 7px 0px;
+    /* position:relative;
+    left: 20%;
+     */
+    }
+
+.button:hover {
+    background-color: #FFD000; /* Green */
+    color: red;
+    font-style: italic;
+    }
+
+    /* font-face {
+        font-family: "Courgette";
+        src: url("Fonts/Courgette/Courgette-Regular.ttf");
+        font-weight: 500;
+    }
+    
+    
+    .content-1 {
+        background-color: rgba(255, 145, 0, 0.418);
+        margin-top: 50px;
+        position: relative;
+        top: 20px;
+        left: 20%;    
+        display: inline-block;
+        width: 50%;
+        height: 100%;
+        
+    }
+    
+    .content-2 {
+        background-color: rgb(202, 204, 56);
+        margin-top: 50px;
+        position: relative;
+        top: 20px;
+        left: 20%;    
+        display: inline-block;
+        width: 50%;
+        height: 100%;
+    }
+    
+    .content-3 {
+        margin-top: 50px;
+        position: relative;
+        top: 20px;
+        left: 20%;
+        background: blue;
+        display: inline-block;
+        width: 50%;
+        height: 100%;
+    }
+
+ i {
+    color:#b62d1b;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.topnav {
+    background: red;
+    font-family: "Courgette";
+    font-size: 22px;
+    position:relative;
+    top: 20px;
+    left: 30%;
+    width: 20%;
+    height: 100%;
+    padding-left: 6%;
+}
+
+p {
+    color: rgb(180, 12, 166);
+    font-size: 16px;
+    text-align: left ;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    text-transform: none;
+    line-height: normal;
+    font-weight: lighter;
+    font-style: italic;
+} */

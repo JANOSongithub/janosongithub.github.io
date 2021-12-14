@@ -1,0 +1,19 @@
+A színek:
+
+napsárga:
+
+R: 255
+G: 208
+B: 1
+#FFD000
+
+élénkzöld:
+
+R: 40
+G: 167
+B: 69
+#28A745
+
+menühöz, vagy az étlapon a kategóriákhoz
+címsor sötétbarna OPENSANS font
+folyószöveg fekete ROBOTO font
